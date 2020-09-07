@@ -36,7 +36,7 @@ function render() {
   }
 };
 
-let store = createStore(reducer)
+let store = createStore(candyReducer)
 store.dispatch({ type: '@@INIT' });
 
 // use your createStore function and the functions provided here to create a store
